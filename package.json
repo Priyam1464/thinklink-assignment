@@ -6,8 +6,13 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "chart.js": "^3.5.1",
     "react": "^17.0.2",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
+    "react-pro-sidebar": "^0.6.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -33,6 +38,15 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
     ]
   }
 }
